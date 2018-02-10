@@ -1,0 +1,31 @@
+{
+  "name": "levenshtein-distance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node app/index.ts",
+    "test": "mocha --recursive -r ts-node/register test/**/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olian04/levenshtein-distance-js.git"
+  },
+  "author": "Olian04",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Olian04/levenshtein-distance-js/issues"
+  },
+  "homepage": "https://github.com/Olian04/levenshtein-distance-js#readme",
+  "dependencies": {
+    "ts-node": "^4.1.0",
+    "typescript": "^2.7.1"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.2",
+    "@types/mocha": "^2.2.48",
+    "@types/node": "^9.4.4",
+    "chai": "^4.1.2",
+    "mocha": "^5.0.0"
+  }
+}
